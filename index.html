@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lafréry in Mirador</title>
+  <style>html, body, #viewer { margin: 0; height: 100%; }</style>
+</head>
+<body>
+  <div id="viewer"></div>
+  <script src="https://unpkg.com/mirador@3.4.3/dist/mirador.min.js"></script>
+  <script>
+    const manifest = new URL('manifest.json', window.location.href).href;
+    const WINDOW_ID = 'lafrery';
+    const ZOOM_MARGIN = 1.6;  // l'annotazione occupa circa 1/1.6 della vista
+
+    const viewer = Mirador.viewer({
+      id: 'viewer',
+      windows: [{
+        id: WINDOW_ID,
+        manifestId: manifest
+      }],
+      // Senza proxy il browser chiede le tessere a Digilib tutte insieme e Digilib risponde 503:
+      // al massimo 6 richieste per volta, con fino a 3 nuovi tentativi
+      osdConfig: {
+        imageLoaderLimit: 6,
+        tileRetryMax: 3,
+        tileRetryDelay: 1500
+      },
+      window: {
+        highlightAllAnnotations: true,
+        sideBarOpenByDefault: true,
+        defaultSideBarPanel: 'annotations'
+      }
+    });
+
+    // Zoom sull'annotazione selezionata, dalla mappa o dall'elenco
+    function zoomTo([x, y, w, h]) {
+      const view = document.querySelector('.openseadragon-container');
+      if (!view) return;
+      const { clientWidth: vw, clientHeight: vh } = view;
+      viewer.store.dispatch(Mirador.actions.updateViewport(WINDOW_ID, {
+        x: x + w / 2,
+        y: y + h / 2,
+        zoom: Math.min(1 / (w * ZOOM_MARGIN), (vh / vw) / (h * ZOOM_MARGIN))
+      }));
+    }
+
+    fetch('annotations.json').then(r => r.json()).then(page => {
+      const boxes = new Map(page.items.map(a => {
+        const { value } = a.target.selector.find(s => s.type === 'FragmentSelector');
+        return [a.id, value.replace('xywh=', '').split(',').map(Number)];
+      }));
+      let selected = null;
+      viewer.store.subscribe(() => {
+        const win = viewer.store.getState().windows[WINDOW_ID];
+        const id = win ? win.selectedAnnotationId : null;
+        if (id === selected) return;
+        selected = id;
+        if (boxes.has(id)) zoomTo(boxes.get(id));
+      });
+    });
+  </script>
+</body>
+</html>

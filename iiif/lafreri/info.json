@@ -1,0 +1,23 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://img.biblhertz.it/digilib/Scaler/IIIF/3/napoli%21duperac-lzw-tiled",
+  "type": "ImageService3",
+  "protocol": "http://iiif.io/api/image",
+  "profile": "level2",
+  "width": 10467,
+  "height": 6883,
+  "tiles": [
+    {
+      "width": 256,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://friendlynihilist.github.io/editing-naples-iiif/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "it": [
+      "Du Perac/Lafréry 1566"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "it": [
+          "Titolo"
+        ]
+      },
+      "value": {
+        "none": [
+          "Nobile Cita di Napole […] suo vero Ritratto"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Autore"
+        ]
+      },
+      "value": {
+        "none": [
+          "Du Perac, Étienne"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Incisore"
+        ]
+      },
+      "value": {
+        "none": [
+          "Du Perac, Étienne"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Editore"
+        ]
+      },
+      "value": {
+        "none": [
+          "Lafréry, Antoine"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Data"
+        ]
+      },
+      "value": {
+        "none": [
+          "1566"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Tecnica"
+        ]
+      },
+      "value": {
+        "none": [
+          "engraving"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Tipo"
+        ]
+      },
+      "value": {
+        "none": [
+          "panorama view"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Dimensioni (mm)"
+        ]
+      },
+      "value": {
+        "none": [
+          "518 x 832"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Collocazione"
+        ]
+      },
+      "value": {
+        "none": [
+          "Paris, Bibliothèque nationale de France, GE DD-655 (102RES)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "Annotazioni di"
+        ]
+      },
+      "value": {
+        "none": [
+          "Luigi Coiro, Gianluca Forgione"
+        ]
+      }
+    },
+    {
+      "label": {
+        "it": [
+          "DOI"
+        ]
+      },
+      "value": {
+        "none": [
+          "https://doi.org/10.48431/maps.napoli.lafrery"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "it": [
+        "Fonte"
+      ]
+    },
+    "value": {
+      "it": [
+        "Bibliotheca Hertziana, Editing Naples"
+      ]
+    }
+  },
+  "homepage": [
+    {
+      "id": "https://maps.biblhertz.it/map?name=lafreri",
+      "type": "Text",
+      "format": "text/html",
+      "label": {
+        "it": [
+          "Applicazione Editing Naples"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+      "type": "Canvas",
+      "width": 10467,
+      "height": 6883,
+      "label": {
+        "none": [
+          "napoli/duperac-lzw-tiled.tif"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://friendlynihilist.github.io/editing-naples-iiif/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://friendlynihilist.github.io/editing-naples-iiif/page/1/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+              "body": {
+                "id": "https://img.biblhertz.it/digilib/Scaler/IIIF/3/napoli%21duperac-lzw-tiled/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 10467,
+                "height": 6883,
+                "service": [
+                  {
+                    "id": "https://friendlynihilist.github.io/editing-naples-iiif/iiif/lafreri",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://friendlynihilist.github.io/editing-naples-iiif/annotations.json",
+          "type": "AnnotationPage"
+        }
+      ]
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://doi.org/10.48431/maps.napoli.lafrery",
+      "type": "Dataset",
+      "label": {
+        "none": [
+          "DOI"
+        ]
+      }
+    }
+  ]
+}

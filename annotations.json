@@ -1,0 +1,2869 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://friendlynihilist.github.io/editing-naples-iiif/annotations.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5937",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:40:34",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Arcivescovado</b> [n. 17]</p><p>Legenda della mappa: «Il Vescovado»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7901,3034,323,374"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8108.9 3407.7 L 8086.0 3405.0 L 7901.5 3324.3 L 7909.5 3290.6 L 7935.1 3248.9 L 7968.8 3259.7 L 8007.9 3195.1 L 8077.9 3142.6 L 8121.0 3090.1 L 8138.5 3033.6 L 8224.7 3072.6 L 8224.7 3106.3 L 8177.6 3211.2 L 8181.6 3296.0 L 8176.2 3348.5 L 8189.7 3395.6 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5936",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:36:14",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Arsenale</b> [n. 15]</p><p>Legenda della mappa: «L&#x27;Arsenale»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "militare",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5545,4377,197,223"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5564.1 4377.1 L 5742.0 4399.3 L 5740.6 4435.4 L 5712.4 4599.8 L 5546.1 4575.7 L 5544.7 4568.8 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5961",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T16:28:20",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Baluardo del Carmine</b> [n. 14]</p><p>Legenda della mappa: «Baruardo del Carmine»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "militare",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7921,5191,344,273"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8265.9 5266.7 L 8219.8 5361.4 L 8157.7 5464.5 L 8100.0 5383.1 L 8050.7 5384.6 L 8045.8 5373.5 L 8054.5 5366.0 L 8059.1 5343.0 L 8056.3 5329.9 L 7987.3 5258.2 L 7978.1 5262.1 L 7982.1 5275.3 L 7976.8 5281.8 L 7949.1 5282.5 L 7936.6 5280.5 L 7921.5 5270.0 L 7929.4 5254.2 L 7927.4 5247.6 L 7934.6 5215.4 L 7928.7 5210.1 L 7928.7 5193.7 L 7941.9 5194.4 L 7943.8 5201.6 L 7949.8 5200.9 L 7947.8 5195.0 L 7961.0 5195.0 L 7963.0 5202.3 L 7968.9 5195.7 L 7974.8 5196.3 L 7977.4 5210.1 L 7997.2 5205.7 L 8077.6 5267.4 L 8130.3 5191.1 L 8150.0 5200.9 L 8154.0 5263.4 L 8179.0 5263.4 L 8194.1 5262.1 L 8208.0 5252.9 L 8236.3 5254.9 L 8252.8 5229.2 L 8261.1 5232.7 L 8264.6 5265.4 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5896",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T10:13:15",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Castel Nuovo</b> [n. 10]</p><p>Legenda della mappa: «Il Castel Novo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "castello",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4805,4372,267,302"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 4845.2 4560.7 L 4837.3 4513.7 L 4813.3 4510.5 L 4805.3 4499.3 L 4813.3 4494.5 L 4809.3 4488.2 L 4814.9 4458.7 L 4829.3 4441.9 L 4836.5 4449.1 L 4834.9 4427.6 L 4843.6 4417.2 L 4893.9 4411.6 L 4893.1 4398.9 L 4899.5 4383.7 L 4913.1 4378.9 L 4929.9 4383.7 L 4929.1 4391.7 L 4941.8 4396.5 L 4941.0 4406.0 L 4961.8 4401.2 L 4963.4 4382.9 L 4975.3 4380.5 L 4984.1 4371.8 L 4990.5 4379.7 L 4993.7 4376.5 L 4997.7 4382.1 L 5008.1 4381.3 L 5007.3 4391.7 L 5003.3 4394.9 L 5005.7 4412.4 L 5018.4 4412.4 L 5026.4 4436.3 L 5024.8 4442.7 L 5027.2 4469.8 L 5034.4 4466.6 L 5053.6 4501.7 L 5037.6 4494.5 L 5048.0 4528.8 L 5052.8 4528.0 L 5055.2 4544.8 L 5048.0 4545.6 L 5052.8 4570.3 L 5067.9 4566.3 L 5072.7 4579.8 L 5063.9 4593.4 L 5068.7 4610.1 L 5020.0 4618.1 L 5025.6 4641.2 L 4976.9 4654.0 L 4976.1 4665.1 L 4937.0 4672.3 L 4923.5 4673.9 L 4909.1 4651.6 L 4891.5 4654.8 L 4842.1 4669.1 L 4822.9 4653.2 L 4833.3 4626.9 L 4827.7 4616.5 L 4839.7 4607.7 L 4839.7 4583.8 L 4836.5 4569.5 L 4846.0 4562.3 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5933",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:09:30",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Castel Sant&#x27;Elmo</b> [n. 11]</p><p>Legenda della mappa: «Castel San Martino»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "castello",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4246,1646,370,537"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 4395.6 1646.5 L 4413.4 1677.7 L 4487.0 1713.4 L 4587.3 1700.0 L 4600.6 1682.2 L 4607.3 1695.5 L 4616.2 1717.8 L 4605.1 1945.2 L 4616.2 1958.6 L 4614.0 2003.2 L 4600.6 2034.4 L 4567.2 2065.6 L 4529.3 2183.8 L 4406.7 2128.0 L 4277.4 2165.9 L 4290.8 2085.7 L 4299.7 2009.9 L 4270.7 1954.2 L 4246.2 1929.6 L 4275.2 1889.5 L 4301.9 1885.0 L 4337.6 1842.7 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5935",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:30:43",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Castel dell&#x27;Ovo</b> [n. 12]</p><p>Legenda della mappa: «Castel dell&#x27;Ovo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "castello",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2441,5138,189,461"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 2524.4 5138.1 L 2573.5 5145.4 L 2617.1 5154.5 L 2626.2 5167.2 L 2629.8 5227.2 L 2573.5 5408.9 L 2541.3 5535.3 L 2511.4 5595.9 L 2455.9 5599.3 L 2442.2 5568.6 L 2440.5 5462.7 L 2456.8 5301.2 L 2473.8 5202.2 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5951",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T14:54:05",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Certosa di S. Martino</b> [n. 41]</p><p>Legenda della mappa: «S. Martino»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4485,2172,212,175"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 4484.9 2246.9 L 4506.9 2346.9 L 4549.6 2344.0 L 4693.8 2316.0 L 4696.7 2276.3 L 4673.2 2257.2 L 4655.5 2186.6 L 4629.0 2183.6 L 4615.8 2171.9 L 4602.6 2176.3 L 4601.1 2195.4 L 4498.1 2223.4 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5910",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T12:15:16",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Complesso di S. Maria del Popolo agli Incurabili</b> [n. 38]</p><p>Legenda della mappa: «L&#x27;Spedale di S. M.a d&#x27;Incur.li»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "ospedale",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7690,2397,165,220"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7734.6 2412.3 L 7690.1 2543.2 L 7794.8 2616.5 L 7855.0 2420.1 L 7773.9 2409.7 L 7758.2 2396.6 Z' fill='#4B0082' fill-opacity='0.3' stroke='#4B0082' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5914",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T18:12:54",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Dogana</b> [n. 16]</p><p>Legenda della mappa: «La Dogana»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "dogana",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5562,4186,206,79"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5561.7 4223.7 L 5567.3 4265.6 L 5577.0 4255.9 L 5767.9 4227.0 L 5765.7 4206.9 L 5732.1 4186.2 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5890",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-15T09:30:25",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Fontana del Molo Grande</b> [n. 69]</p><p>Legenda della mappa: «Fonte del Molo Grando [sic]»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fontana",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porto",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5599,5237,68,65"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5622.4 5236.6 L 5667.5 5242.0 L 5647.7 5301.4 L 5599.0 5300.2 Z' fill='#00FFFF' fill-opacity='0.3' stroke='#00FFFF' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5970",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-26T17:15:44",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Fontana del Seggio di Porto</b> [n. 71]</p><p>Legenda della mappa: «Fonte di Seggio di Porto»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fontana",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6495,3854,23,29"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6499.7 3854.3 L 6495.4 3868.8 L 6499.7 3883.4 L 6518.6 3876.1 L 6517.2 3858.6 Z' fill='#00FFFF' fill-opacity='0.3' stroke='#00FFFF' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5944",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T11:38:14",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Fontana dell&#x27;Annunziata</b> [n. 72]</p><p>Legenda della mappa: «Fonte dell&#x27;Anontiata»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fontana",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8316,4263,124,136"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8333.9 4263.0 L 8440.6 4374.4 L 8404.8 4399.2 L 8345.0 4341.2 L 8353.2 4332.0 L 8318.3 4288.8 L 8316.4 4275.9 Z' fill='#00FFFF' fill-opacity='0.3' stroke='#00FFFF' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5913",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T18:05:49",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Fontana dell&#x27;Olmo</b> [n. 70]</p><p>Legenda della mappa: «Fonte di Piazza dell&#x27;Olmo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fontana",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5974,4080,112,44"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6012.4 4091.1 L 6009.3 4079.9 L 6003.5 4079.7 L 6000.7 4083.8 L 5995.8 4079.7 L 5991.4 4080.3 L 5988.5 4083.3 L 5988.8 4094.4 L 5985.3 4098.7 L 5985.8 4102.0 L 5974.2 4103.9 L 5987.7 4123.8 L 6028.7 4115.7 L 6030.4 4119.8 L 6085.8 4112.7 L 6073.7 4083.2 Z' fill='#00FFFF' fill-opacity='0.3' stroke='#00FFFF' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5959",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T11:11:44",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Fontana della Sellaria</b> [n. 74]</p><p>Legenda della mappa: «Fonte della Salaria»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fontana",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7658,4133,34,49"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7670.5 4181.9 L 7692.7 4181.9 L 7691.8 4133.3 L 7659.0 4132.7 L 7658.2 4182.1 Z' fill='#00FFFF' fill-opacity='0.3' stroke='#00FFFF' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5941",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T11:31:57",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Fontana di Piazza Mercato</b> [n. 73]</p><p>Legenda della mappa: «Fonte della Piazza di Mercato»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fontana",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8030,4868,58,115"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8029.8 4872.6 L 8085.4 4867.9 L 8087.7 4982.6 L 8034.4 4982.6 Z' fill='#00FFFF' fill-opacity='0.3' stroke='#00FFFF' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5905",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:38:42",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Gesù Vecchio</b> [n. 32]</p><p>Legenda della mappa: «Il Gesù»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6750,3553,196,217"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6815.5 3587.7 L 6750.1 3741.8 L 6895.0 3769.8 L 6946.4 3625.0 L 6939.4 3583.0 L 6911.3 3583.0 L 6916.0 3569.0 L 6904.3 3552.6 L 6890.3 3559.6 L 6888.0 3590.0 L 6866.9 3592.3 L 6864.6 3592.3 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5889",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-15T09:28:28",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Molo Grande</b> [n. 1]</p><p>Legenda della mappa: «Il Molo Grande»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "economia",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "molo",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porto",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5254,4621,609,746"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5255.1 4680.9 L 5254.0 4621.4 L 5373.2 4623.6 L 5426.2 4817.7 L 5499.1 5023.0 L 5587.4 5198.4 L 5691.1 5229.3 L 5803.7 5230.4 L 5861.1 5262.4 L 5863.3 5291.1 L 5862.2 5326.4 L 5830.2 5348.4 L 5680.1 5349.5 L 5648.1 5347.3 L 5539.9 5367.2 L 5496.8 5352.9 L 5471.5 5316.4 L 5473.7 5241.4 L 5300.4 4828.8 L 5281.6 4752.6 L 5265.0 4699.7 Z' fill='#008B8B' fill-opacity='0.3' stroke='#008B8B' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5900",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T10:56:08",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Molo Piccolo</b> [n. 2]</p><p>Legenda della mappa: «Il Molo piccolo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "economia",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6240,4358,418,103"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6658.1 4413.3 L 6305.8 4358.0 L 6273.1 4410.8 L 6268.0 4388.2 L 6265.5 4375.6 L 6247.9 4373.1 L 6240.3 4461.1 L 6270.5 4453.6 L 6313.3 4400.8 L 6635.5 4446.0 Z' fill='#008B8B' fill-opacity='0.3' stroke='#008B8B' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/6540",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-04-07T17:01:58",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Pal.o del Duca di Atri</b> [n. 52]</p><p>Legenda della mappa: «Pal.o del Duca di Atri»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7057,3811,42,47"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7059.8 3810.9 L 7057.2 3844.7 L 7098.8 3857.7 L 7093.6 3823.9 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5967",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-26T16:14:11",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo Orsini di Gravina</b> [n. 49]</p><p>Legenda della mappa: «Pal.o del Duca di Gravina»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5959,3101,148,146"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6107.5 3100.9 L 6009.0 3127.6 L 5959.7 3220.1 L 5959.3 3246.9 L 6006.4 3246.2 L 6072.0 3160.3 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5955",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T09:48:23",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo Pappacoda</b> [n. 57]</p><p>Legenda della mappa: «Pal.o di Pardo Pappacoda»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6760,3258,92,71"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6788.1 3258.0 L 6851.2 3291.1 L 6852.0 3308.8 L 6835.8 3326.5 L 6815.8 3320.3 L 6795.0 3328.8 L 6760.4 3318.8 L 6763.5 3300.3 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5964",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T17:54:31",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo Ravaschieri</b> [n. 54]</p><p>Legenda della mappa: «Pal.o de Ravaschieri»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6029,2916,154,132"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6099.8 3048.6 L 6029.4 3033.7 L 6063.0 3003.9 L 6059.1 3000.0 L 6097.2 2969.6 L 6106.3 2968.3 L 6105.6 2959.2 L 6086.9 2959.9 L 6086.9 2963.8 L 6077.2 2965.1 L 6074.6 2958.6 L 6075.3 2934.0 L 6073.3 2928.8 L 6097.2 2916.5 L 6105.0 2917.1 L 6126.3 2937.9 L 6125.0 2941.7 L 6166.3 2940.5 L 6179.2 2943.7 L 6183.7 2975.4 L 6155.3 3006.5 L 6145.6 3010.4 L 6146.3 3016.2 L 6131.4 3030.4 L 6126.3 3037.6 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5963",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T17:11:10",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo Vicereale</b> [n. 48]</p><p>Legenda della mappa: «Palazo del Vicere»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4068,4014,228,263"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 4075.2 4147.7 L 4074.0 4194.4 L 4067.9 4208.5 L 4084.2 4232.7 L 4097.1 4227.6 L 4117.3 4243.3 L 4152.7 4265.3 L 4166.2 4270.3 L 4187.6 4277.1 L 4294.9 4196.1 L 4296.1 4124.1 L 4234.2 4067.9 L 4249.4 4051.6 L 4219.6 4039.8 L 4217.9 4027.4 L 4204.4 4013.9 L 4190.4 4021.2 L 4185.9 4029.7 L 4185.3 4035.8 L 4181.4 4035.8 L 4179.2 4040.3 L 4158.9 4058.9 L 4158.9 4085.3 L 4123.5 4121.9 L 4103.3 4106.7 L 4075.7 4146.6 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/6579",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-11-08T14:00:40",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo del Principe di Salerno</b> [n. 50]</p><p>Legenda della mappa: «Pal.o del Prenc. di Salerna»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6281,2878,145,154"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6280.8 2986.3 L 6283.6 2954.6 L 6310.6 2886.6 L 6325.5 2878.2 L 6425.2 2920.1 L 6426.1 2931.3 L 6387.9 3005.8 L 6385.1 3031.9 L 6281.7 2987.2 L 6281.7 2986.3 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5924",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T23:01:47",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo del Principe di Stigliano</b> [n. 55]</p><p>Legenda della mappa: «Pal.o del Prenc. di Stigliano»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3303,2948,216,290"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 3409.3 3238.1 L 3517.2 3230.2 L 3518.6 3150.2 L 3432.9 3000.1 L 3408.6 2953.6 L 3395.7 2947.9 L 3386.4 2963.6 L 3377.1 3005.1 L 3392.2 3025.1 L 3354.2 3033.7 L 3350.0 3022.2 L 3330.7 3027.2 L 3312.8 2999.4 L 3307.1 3001.5 L 3302.8 3050.1 L 3380.0 3203.8 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5958",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T11:05:49",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo del Principe di Sulmona</b> [n. 53]</p><p>Legenda della mappa: «Pal.o del Prenc. di Sulm.a»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5483,3758,78,73"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5506.3 3830.8 L 5560.6 3804.2 L 5557.3 3782.0 L 5536.2 3757.6 L 5489.5 3780.0 L 5482.9 3805.3 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5952",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T14:56:34",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo della Vicaria Vecchia</b> [n. 47]</p><p>Legenda della mappa: «Palazo della Vicaria»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "pubblico",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8634,3588,182,195"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8659.5 3604.5 L 8633.8 3752.3 L 8813.7 3783.4 L 8815.8 3620.6 L 8765.5 3615.2 L 8765.5 3605.6 L 8730.1 3601.3 L 8730.1 3608.8 L 8692.7 3604.5 L 8679.8 3588.5 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5903",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:23:38",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo di Alfonso Sanchez marchese di Grottola</b> [n. 58]</p><p>Legenda della mappa: «Pal.o del Tesoriero»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6298,3513,166,151"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6298.2 3618.5 L 6424.1 3663.7 L 6464.3 3600.9 L 6461.8 3560.6 L 6366.2 3512.8 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5954",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T09:46:32",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Palazzo di Diomede Carafa</b> [n. 51]</p><p>Legenda della mappa: «Pal.o del Duca Matalone»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "palazzo",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7243,3503,87,115"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7275.9 3503.4 L 7325.2 3521.0 L 7329.8 3542.6 L 7294.4 3618.7 L 7242.8 3601.8 L 7245.9 3580.2 Z' fill='#000080' fill-opacity='0.3' stroke='#000080' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5915",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T18:26:29",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Piazza Olmo</b> [n. 60]</p><p>Legenda della mappa: «Piazza dell&#x27;Olmo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "piazza",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5621,4099,420,289"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5621.2 4160.2 L 5657.0 4201.2 L 5733.8 4185.3 L 5764.3 4205.2 L 5766.9 4229.1 L 5768.3 4307.2 L 5751.0 4388.0 L 5777.5 4388.0 L 5802.7 4324.4 L 5796.1 4308.5 L 5794.7 4275.4 L 5789.4 4227.7 L 5784.1 4217.1 L 5784.1 4189.3 L 5790.8 4169.5 L 5988.1 4136.3 L 6001.4 4150.9 L 6011.9 4205.2 L 6023.9 4225.1 L 6041.1 4221.1 L 6011.9 4146.9 L 5964.3 4099.2 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/6542",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-04-07T17:40:13",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Piazza de Lansieri</b> [n. 61]</p><p>Legenda della mappa: «Piazza de Lansieri»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "piazza",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6292,4116,74,63"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6305.2 4115.6 L 6291.6 4164.6 L 6365.1 4178.2 L 6359.7 4131.9 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/6543",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-04-07T17:44:11",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Piazza della Sellaria</b> [n. 63]</p><p>Legenda della mappa: «Strada della Salaria»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "strada",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7710,4196,75,69"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7730.2 4196.3 L 7709.8 4240.1 L 7766.2 4265.2 L 7785.0 4222.9 L 7783.4 4226.0 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5909",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T12:05:15",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Piazza di S. Lorenzo</b> [n. 62]</p><p>Legenda della mappa: «Di S. Lorenzo Mercato Vecchio»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "piazza",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7552,3143,53,59"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7568.3 3143.3 L 7551.8 3185.4 L 7584.8 3201.9 L 7604.9 3156.1 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5920",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T22:52:17",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta Capuana</b> [n. 5]</p><p>Legenda della mappa: «Porta Capuana»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=9078,3619,55,151"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 9132.7 3766.7 L 9119.0 3736.0 L 9116.4 3698.6 L 9119.9 3695.6 L 9131.4 3692.1 L 9121.7 3671.9 L 9121.7 3650.8 L 9125.2 3650.3 L 9122.6 3634.1 L 9108.5 3618.7 L 9096.6 3620.5 L 9086.5 3629.2 L 9081.2 3639.8 L 9084.7 3651.6 L 9084.7 3682.4 L 9080.8 3685.9 L 9080.3 3696.4 L 9084.3 3701.3 L 9080.8 3756.6 L 9078.1 3761.5 L 9085.2 3768.5 L 9094.4 3768.9 L 9091.3 3739.1 L 9099.7 3739.1 L 9105.9 3769.4 L 9106.3 3769.4 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5901",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T10:59:32",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta Nolana</b> [n. 4]</p><p>Legenda della mappa: «Porta Nolana»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8598,4562,109,179"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8603.6 4659.9 L 8609.2 4633.8 L 8627.0 4631.6 L 8667.2 4583.8 L 8670.3 4572.2 L 8679.1 4561.8 L 8699.8 4563.7 L 8706.8 4579.4 L 8705.1 4631.2 L 8692.6 4639.6 L 8668.1 4645.5 L 8657.8 4664.7 L 8677.4 4685.7 L 8697.1 4719.2 L 8671.6 4740.6 L 8637.7 4701.3 L 8611.2 4730.3 L 8598.0 4727.2 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5898",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T10:34:44",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta Reale Vecchia</b> [n. 8]</p><p>Legenda della mappa: «Porta Reale»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6203,2532,58,108"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6202.6 2594.7 L 6207.6 2544.4 L 6232.8 2531.8 L 6260.5 2562.0 L 6258.0 2589.6 L 6247.9 2640.0 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5923",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T23:00:07",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta Romana</b> [n. 9]</p><p>Legenda della mappa: «Porta Romana»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3181,3193,74,110"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 3204.9 3193.1 L 3185.6 3204.5 L 3180.6 3255.3 L 3230.6 3303.2 L 3235.7 3282.4 L 3244.2 3282.4 L 3249.2 3294.6 L 3254.2 3290.3 L 3252.1 3231.0 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5921",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T22:55:15",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta S. Gennaro</b> [n. 6]</p><p>Legenda della mappa: «Porta S.to Genaro»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8040,2411,96,96"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8070.1 2410.7 L 8043.4 2460.9 L 8040.3 2482.8 L 8114.8 2506.3 L 8130.5 2467.9 L 8136.0 2435.0 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5922",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T22:58:23",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta S.ta M.a Constantinopoli</b> [n. 7]</p><p>Legenda della mappa: «Porta S.ta M.a Constantinopoli»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fortificazione",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "mura",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7047,2117,54,67"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7058.0 2117.4 L 7046.8 2129.2 L 7047.9 2162.2 L 7087.7 2184.1 L 7091.0 2160.5 L 7101.1 2156.6 L 7096.6 2129.2 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5919",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T22:45:59",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Porta del Mercato</b> [n. 3]</p><p>Legenda della mappa: «Porta del Mercato»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "porta",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "fortificazione",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "mura",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8146,5120,189,151"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8335.1 5234.4 L 8324.4 5270.6 L 8257.9 5243.8 L 8251.2 5227.3 L 8237.8 5255.8 L 8206.1 5253.2 L 8194.1 5260.3 L 8168.6 5263.9 L 8152.1 5261.2 L 8152.1 5214.3 L 8148.1 5197.8 L 8146.3 5177.2 L 8190.1 5175.4 L 8210.2 5139.7 L 8208.8 5123.6 L 8235.2 5119.6 L 8253.4 5125.8 L 8254.3 5144.1 L 8250.8 5147.3 L 8253.9 5173.6 L 8257.9 5189.3 L 8261.0 5196.0 L 8289.2 5207.1 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5895",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T09:50:37",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Presidio di Pizzofalcone</b> [n. 56]</p><p>Legenda della mappa: «Palazzo Pizzofalcone»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "militare",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2901,4650,177,201"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 3013.9 4850.3 L 3019.7 4839.9 L 3024.4 4841.6 L 3077.8 4728.5 L 3069.1 4659.4 L 2953.0 4649.6 L 2902.5 4783.0 L 2900.8 4824.2 L 2900.8 4825.4 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5945",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T11:39:31",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Agostino alla Zecca</b> [n. 24]</p><p>Legenda della mappa: «S. Domenico [sic!]»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7864,3988,136,134"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7969.6 3988.0 L 7982.5 3998.1 L 7981.5 4024.8 L 7999.9 4042.2 L 7999.9 4117.7 L 7863.8 4122.3 L 7904.3 4032.1 L 7956.7 4034.9 L 7959.5 4004.5 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5908",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:57:25",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Caterina a Formiello</b> [n. 30]</p><p>Legenda della mappa: «S. Caterina formella»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8965,3501,97,94"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8989.3 3594.7 L 9062.3 3595.9 L 9060.6 3549.8 L 9055.7 3547.6 L 9056.6 3529.5 L 9054.8 3520.3 L 9045.6 3512.9 L 9041.6 3501.4 L 9035.0 3512.9 L 9022.3 3524.7 L 9021.4 3548.9 L 8975.4 3550.2 L 8965.1 3564.7 L 8965.1 3592.4 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5940",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:47:08",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Chiara</b> [n. 21]</p><p>Legenda della mappa: «S. Chiara»</p><p><b>Gazetteer:</b> <a href='https://maps.biblhertz.it/top/18'>Chiesa e convento di S. Chiara</a> [18]</p><p>Luogo: Napoli, Decumano<br/>Categoria: chiesa<br/>Date: 1310-<br/>Note: Chiesa di Santa Chiara</p><p><b>Guide storiche</b><br/><a href='https://maps.biblhertz.it/guide/destefano#par_312'>De Stefano (1560), 179v</a>: «Santa Chiara»<br/><a href='https://maps.biblhertz.it/guide/tarcagnota#par_25'>Tarcagnota (1566), 10r</a>: «Santa Chiara»<br/><a href='https://maps.biblhertz.it/guide/tarcagnota#par_25'>Tarcagnota (1566), 10v</a>: «Santa Chiara»<br/><a href='https://maps.biblhertz.it/guide/tarcagnota#par_65'>Tarcagnota (1566), 28v</a>: «chiesa»<br/><a href='https://maps.biblhertz.it/guide/celano#par_III-121'>Celano (1692), 63</a>: «chiesa regale di Santa Chiara»<br/><a href='https://maps.biblhertz.it/guide/sigismondo#par_I-117'>Sigismondo (1788), 254</a>: «chiesa»<br/><a href='https://maps.biblhertz.it/guide/sigismondo#h2_I-12'>Sigismondo (1788), 254</a>: «Santa Chiara»</p><p><b>Altre mappe storiche</b><br/><a href='https://maps.biblhertz.it/map?name=noia&amp;id=95'>Duca di Noja 1775, n. 107</a>: «Chiesa di Santa Chiara, monasterio di dame monache e convento di francescani, che la servono. Questa fu anticamente sacra al Santissimo Corpo di Cristo, e fu fondata dal re Roberto Angioino e da Sancia d’Aragona sua moglie; in questa chiesa èvvi ’l sepolcro del mentovato re. Ne’ tempi antichi quivi univasi il Sacro Regio Consiglio a decidere le cause de’ napolitani.»<br/><a href='https://maps.biblhertz.it/map?name=baratta&amp;id=1298'>Baratta 1627/1670, n. 99</a>: «S. Chiara»<br/><a href='https://maps.biblhertz.it/map?name=stinemolen&amp;id=1518'>Stinemolen 1582</a></p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "convento",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa,",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiostro",
+          "purpose": "tagging"
+        },
+        {
+          "type": "SpecificResource",
+          "source": "https://maps.biblhertz.it/top/18",
+          "purpose": "identifying"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6214,3039,277,241"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6337.4 3039.1 L 6365.4 3058.6 L 6453.0 3096.7 L 6457.4 3086.0 L 6470.7 3079.8 L 6491.0 3092.2 L 6489.3 3137.4 L 6410.5 3271.1 L 6387.4 3276.4 L 6327.2 3279.9 L 6305.1 3275.5 L 6213.9 3276.4 L 6224.6 3151.5 L 6231.6 3151.5 L 6232.5 3090.5 L 6302.5 3094.9 L 6314.1 3055.6 Z' fill='#B22222' fill-opacity='0.3' stroke='#B22222' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5953",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T18:19:42",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Croce di Palazzo</b> [n. 39]</p><p>Legenda della mappa: «La Croce»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3524,4373,228,210"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 3656.4 4373.4 L 3737.1 4419.3 L 3738.5 4449.9 L 3752.4 4455.5 L 3752.4 4486.1 L 3655.0 4534.8 L 3650.8 4552.9 L 3620.2 4580.7 L 3524.3 4583.5 L 3527.0 4536.2 L 3545.1 4501.4 L 3568.8 4506.9 L 3570.2 4463.8 L 3578.5 4452.7 L 3579.9 4384.5 L 3591.0 4374.8 L 3604.9 4385.9 L 3609.1 4388.7 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5946",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T13:55:43",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Domenico</b> [n. 22]</p><p>Legenda della mappa: «S. Agostino [sic!]»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6862,3013,69,161"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6893.5 3174.2 L 6930.8 3097.6 L 6925.2 3028.4 L 6915.9 3013.5 L 6902.8 3039.6 L 6899.1 3058.3 L 6874.8 3110.6 L 6867.3 3118.1 L 6861.7 3166.7 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5942",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T11:33:21",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Eligio</b> [n. 27]</p><p>Legenda della mappa: «Lo Spedale di Sant&#x27;Alò»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "ospedale",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7622,4564,145,173"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7623.2 4644.3 L 7736.7 4737.0 L 7739.0 4686.0 L 7766.8 4651.2 L 7757.6 4608.4 L 7736.7 4573.6 L 7713.6 4591.0 L 7669.5 4564.3 L 7622.1 4602.6 Z' fill='#4B0082' fill-opacity='0.3' stroke='#4B0082' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5950",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T14:31:54",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Giacomo degli Spagnoli</b> [n. 37]</p><p>Legenda della mappa: «L&#x27; Spedale di S. Giac.o de spag.li»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "ospedale",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4906,3708,164,163"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5070.2 3835.8 L 5069.0 3820.0 L 5063.2 3798.7 L 5051.6 3794.8 L 5049.6 3783.2 L 5005.0 3744.4 L 4995.3 3744.4 L 4995.3 3723.1 L 4985.6 3711.5 L 4974.0 3707.6 L 4962.4 3715.3 L 4962.4 3728.9 L 4950.7 3717.3 L 4929.4 3736.7 L 4925.5 3746.4 L 4917.8 3790.9 L 4906.1 3792.9 L 4968.2 3870.4 Z' fill='#4B0082' fill-opacity='0.3' stroke='#4B0082' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5939",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:44:29",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Giorgio Maggiore</b> [n. 23]</p><p>Legenda della mappa: «S. Giorgio»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7696,3673,127,152"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7717.7 3693.3 L 7696.2 3779.2 L 7706.1 3814.0 L 7798.1 3824.7 L 7823.1 3738.9 L 7767.7 3709.4 L 7757.9 3713.9 L 7760.6 3693.3 L 7744.5 3672.8 L 7734.7 3689.7 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5904",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:26:46",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Giovanni Maggiore</b> [n. 20]</p><p>Legenda della mappa: «S. Gio. Mag.re»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6382,3664,104,83"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6404.7 3747.2 L 6442.2 3741.5 L 6485.8 3740.5 L 6485.2 3705.7 L 6467.6 3691.2 L 6466.9 3673.9 L 6456.4 3664.1 L 6439.8 3671.4 L 6440.5 3694.5 L 6398.3 3693.9 L 6382.0 3704.1 L 6381.7 3738.4 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5897",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T10:28:50",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Giovanni a Carbonara</b> [n. 28]</p><p>Legenda della mappa: «S. Giov. di Carbonara»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8686,2627,190,168"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8767.1 2742.4 L 8808.9 2769.9 L 8808.9 2778.3 L 8828.8 2787.2 L 8833.4 2794.4 L 8876.1 2779.6 L 8874.4 2758.0 L 8876.5 2753.4 L 8867.6 2749.2 L 8868.9 2713.7 L 8851.6 2685.3 L 8851.2 2673.1 L 8845.3 2679.4 L 8846.5 2666.7 L 8772.6 2626.6 L 8759.9 2636.3 L 8761.2 2642.6 L 8689.8 2653.6 L 8686.5 2680.3 L 8695.7 2695.1 L 8694.9 2732.7 L 8730.8 2751.7 L 8731.2 2751.7 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5907",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:52:22",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Lorenzo Maggiore</b> [n. 18]</p><p>Legenda della mappa: «S.to Lorenzo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7558,3180,150,136"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7697.2 3316.5 L 7558.3 3308.1 L 7561.1 3252.5 L 7577.8 3238.6 L 7572.2 3219.1 L 7597.2 3180.1 L 7622.2 3205.2 L 7619.4 3235.8 L 7680.6 3238.6 L 7708.3 3263.6 L 7705.6 3313.7 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5932",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T11:07:47",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Luigi di Palazzo</b> [n. 40]</p><p>Legenda della mappa: «S. Luigi»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3717,4131,173,206"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 3716.9 4203.3 L 3797.3 4337.0 L 3829.8 4326.5 L 3828.9 4313.2 L 3873.4 4291.2 L 3879.4 4294.5 L 3889.0 4289.0 L 3888.1 4265.1 L 3890.4 4259.6 L 3887.7 4256.4 L 3876.6 4242.7 L 3875.7 4230.8 L 3877.6 4222.1 L 3819.3 4131.0 L 3720.6 4163.9 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5902",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:17:33",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Maria del Carmine Maggiore</b> [n. 26]</p><p>Legenda della mappa: «S. Maria del Carmine»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7959,4994,219,229"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8027.3 5223.3 L 8067.6 5190.6 L 8112.9 5213.3 L 8128.0 5190.6 L 8148.1 5203.2 L 8143.1 5178.0 L 8178.3 5175.5 L 8173.3 5140.3 L 8095.2 5095.0 L 8092.7 5069.9 L 8085.2 5044.7 L 8067.6 5019.6 L 8065.0 4994.4 L 8052.5 5009.5 L 8057.5 5024.6 L 8034.8 5047.2 L 8032.3 5105.1 L 7959.3 5188.1 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5911",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T17:51:04",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Maria dell&#x27;Incoronata</b> [n. 36]</p><p>Legenda della mappa: «La Incoronata»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5267,3769,114,117"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5268.4 3800.1 L 5266.7 3868.8 L 5289.4 3886.5 L 5380.9 3836.1 L 5378.1 3790.2 L 5360.9 3769.1 L 5358.7 3769.1 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5899",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T10:40:48",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Maria di Monteoliveto</b> [n. 34]</p><p>Legenda della mappa: «Monte Oliveto»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5747,3063,131,166"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5747.0 3203.4 L 5792.3 3228.6 L 5835.1 3198.4 L 5877.9 3130.5 L 5867.8 3105.3 L 5850.2 3085.2 L 5827.6 3105.3 L 5810.0 3138.0 L 5784.8 3062.5 L 5767.2 3158.1 L 5754.6 3173.2 L 5762.1 3185.8 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5892",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-18T18:15:01",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Maria la Nova</b> [n. 35]</p><p>Legenda della mappa: «S. Maria nova»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5934,3476,169,213"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5942.1 3487.4 L 5934.0 3531.0 L 5956.6 3675.5 L 5990.2 3688.2 L 6031.1 3680.0 L 6078.3 3656.4 L 6102.8 3566.5 L 6071.0 3477.4 L 6042.9 3475.6 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5938",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:41:58",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Paolo</b> [n. 19]</p><p>Legenda della mappa: «S. Pavolo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7515,2999,119,152"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7515.3 3122.8 L 7579.8 3151.8 L 7634.4 3048.0 L 7633.9 3012.5 L 7607.6 2999.4 L 7560.7 3034.9 L 7543.2 3047.4 L 7542.1 3074.2 L 7526.2 3085.7 L 7525.7 3110.8 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5949",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T14:28:07",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Pietro Martire</b> [n. 33]</p><p>Legenda della mappa: «S. Pietro martire»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6531,4098,222,224"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6533.1 4282.3 L 6694.7 4321.6 L 6702.9 4311.3 L 6752.6 4174.6 L 6746.4 4135.2 L 6721.6 4129.0 L 6700.9 4114.5 L 6692.6 4122.8 L 6586.9 4098.0 L 6531.0 4232.6 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5947",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T14:14:56",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>S. Pietro ad Aram</b> [n. 29]</p><p>Legenda della mappa: «S. Pietro ad Aras»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8673,4334,122,98"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8673.4 4389.3 L 8705.1 4426.3 L 8771.3 4431.6 L 8795.1 4402.5 L 8787.2 4381.3 L 8781.9 4357.5 L 8760.7 4333.7 L 8702.5 4333.7 L 8683.9 4341.6 L 8678.7 4365.4 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5948",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T14:18:48",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>SS. Severino e Sossio</b> [n. 31]</p><p>Legenda della mappa: «S. Severino»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7149,3655,130,177"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7149.5 3821.5 L 7171.2 3822.9 L 7178.5 3828.7 L 7264.0 3831.6 L 7272.7 3824.4 L 7277.1 3805.5 L 7280.0 3754.7 L 7265.5 3743.1 L 7258.2 3744.6 L 7246.6 3738.8 L 7248.1 3708.3 L 7229.2 3685.1 L 7230.7 3666.2 L 7226.3 3654.6 L 7219.1 3656.1 L 7214.7 3661.9 L 7210.4 3680.7 L 7197.3 3705.4 L 7194.4 3733.0 L 7191.5 3740.2 L 7182.8 3748.9 L 7175.6 3741.7 L 7158.2 3754.7 L 7152.4 3779.4 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5956",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T10:19:44",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>SS. Trinità di Palazzo</b> [n. 41]</p><p>Legenda della mappa: «SS. Trinità »</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "chiesa",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3961,3974,125,194"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 3988.3 4168.4 L 4035.6 4155.2 L 4036.7 4149.7 L 4057.6 4135.4 L 4070.8 4131.1 L 4086.1 4095.9 L 4082.8 4027.8 L 4073.0 4000.3 L 4074.1 3974.0 L 4071.9 4001.4 L 4067.5 4020.1 L 4060.9 4049.8 L 4045.5 4057.5 L 4008.1 4072.8 L 4000.4 4072.8 L 3964.1 4089.3 L 3960.8 4116.8 Z' fill='#FF0000' fill-opacity='0.3' stroke='#FF0000' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5943",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-22T11:37:13",
+      "creator": {
+        "type": "Person",
+        "name": "Martin Raspe"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Santa Casa della SS. Annunziata</b> [n. 25]</p><p>Legenda della mappa: «Lo Spedale dell&#x27;Anontiata»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "ospedale",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8421,4074,230,231"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8573.1 4074.4 L 8533.6 4076.3 L 8522.5 4155.4 L 8490.3 4183.0 L 8489.4 4197.7 L 8483.0 4215.2 L 8421.3 4227.2 L 8421.3 4250.2 L 8496.8 4305.4 L 8558.4 4302.6 L 8594.3 4271.3 L 8612.7 4273.2 L 8615.4 4305.4 L 8651.3 4252.9 L 8651.3 4219.8 L 8619.1 4203.2 L 8620.0 4175.6 L 8595.2 4154.5 L 8576.8 4156.3 L 8577.7 4122.3 Z' fill='#4B0082' fill-opacity='0.3' stroke='#4B0082' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5906",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T11:48:35",
+      "creator": {
+        "type": "Person",
+        "name": "anonymous"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Seggio di Capuana</b> [n. 42]</p><p>Legenda della mappa: «Seggio Capuano»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "seggio",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8207,3410,47,55"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 8207.0 3458.3 L 8234.3 3463.1 L 8241.5 3464.7 L 8254.4 3428.7 L 8247.9 3410.2 L 8220.7 3410.2 L 8211.9 3418.3 L 8218.3 3419.9 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5968",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-26T17:06:09",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Seggio di Montagna</b> [n. 43]</p><p>Legenda della mappa: «Seggio di Montagna»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "seggio",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7389,3009,49,84"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7437.9 3020.0 L 7426.5 3008.6 L 7411.7 3015.7 L 7394.3 3048.6 L 7389.1 3083.5 L 7421.4 3092.5 L 7434.4 3053.7 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5917",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-20T18:44:24",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Seggio di Nilo</b> [n. 44]</p><p>Legenda della mappa: «Seggio di Nido»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "seggio",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6971,3335,73,105"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6971.0 3422.4 L 7017.2 3435.0 L 7022.5 3440.3 L 7044.4 3388.9 L 7043.0 3372.5 L 7038.8 3371.9 L 7036.2 3366.9 L 7032.6 3366.1 L 7032.0 3363.4 L 7035.5 3361.2 L 7032.4 3347.4 L 7024.8 3336.9 L 7019.9 3335.3 L 7007.3 3336.1 L 7003.6 3337.7 L 6997.2 3343.7 L 6995.7 3350.1 L 6991.6 3350.7 L 6976.2 3395.3 L 6971.8 3397.4 L 6972.9 3400.9 L 6973.5 3401.3 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5969",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-26T17:08:56",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Seggio di Portanova</b> [n. 46]</p><p>Legenda della mappa: «Seggio di Porta Nova»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "seggio",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7114,4068,58,58"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7113.7 4104.8 L 7118.2 4082.5 L 7130.1 4067.5 L 7171.9 4081.0 L 7171.9 4110.8 L 7157.0 4125.7 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5962",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T17:07:03",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Seggio di Porto</b> [n. 45]</p><p>Legenda della mappa: «Seggio di Porto»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "seggio",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6378,3849,63,40"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6402.2 3848.6 L 6385.0 3850.5 L 6378.2 3870.6 L 6415.4 3888.4 L 6440.9 3870.0 L 6435.8 3860.4 Z' fill='#4682B4' fill-opacity='0.3' stroke='#4682B4' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5965",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T18:14:05",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Strada Nilo</b> [n. 64]</p><p>Legenda della mappa: «Stra. di Seggio di Nido»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "strada",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6770,3223,761,379"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 6798.5 3222.7 L 6769.8 3256.1 L 6789.9 3258.0 L 6870.1 3301.0 L 6873.0 3280.9 L 6888.3 3296.2 L 6888.3 3309.6 L 6927.4 3318.1 L 6935.1 3320.1 L 6966.6 3328.6 L 6974.2 3344.9 L 6992.4 3351.5 L 7003.9 3337.2 L 7022.0 3335.3 L 7033.5 3349.6 L 7035.4 3357.3 L 7032.5 3364.9 L 7067.9 3387.8 L 7180.6 3442.2 L 7198.7 3459.4 L 7250.3 3477.5 L 7276.1 3503.3 L 7325.8 3520.4 L 7343.9 3532.8 L 7396.5 3547.2 L 7416.5 3554.8 L 7524.5 3601.5 L 7531.1 3565.3 L 7488.2 3549.1 L 7468.1 3536.7 L 7441.4 3526.2 L 7410.8 3509.0 L 7379.3 3497.5 L 7355.4 3489.9 L 7308.6 3468.9 L 7281.8 3447.0 L 7242.7 3425.0 L 7215.0 3415.5 L 7197.8 3405.0 L 7191.1 3403.1 L 7158.6 3383.0 L 7134.7 3371.6 L 7086.0 3349.6 L 7056.4 3338.2 L 6889.2 3266.6 L 6797.5 3223.7 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/6544",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-04-07T17:50:22",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Strada S. Lorenzo</b> [n. 65]</p><p>Legenda della mappa: «Stra. di S. Lore[n]zo alla Vicar.a»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "strada",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7686,3216,217,129"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7701.1 3216.0 L 7686.3 3241.4 L 7758.0 3300.4 L 7882.5 3344.7 L 7903.6 3321.5 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5960",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T16:02:54",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Strada della Incoronata</b> [n. 68]</p><p>Legenda della mappa: «Strada della Incoronata»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "strada",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5250,3677,547,290"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5796.8 3736.8 L 5775.9 3753.6 L 5722.6 3777.6 L 5717.4 3772.4 L 5668.2 3788.1 L 5663.0 3786.0 L 5653.6 3798.5 L 5648.4 3793.3 L 5609.7 3802.7 L 5607.6 3815.3 L 5528.1 3841.4 L 5527.1 3874.9 L 5496.7 3874.9 L 5451.8 3897.9 L 5442.4 3895.8 L 5397.4 3926.1 L 5385.9 3925.1 L 5350.4 3943.9 L 5335.7 3947.1 L 5287.6 3966.9 L 5250.0 3928.2 L 5262.5 3917.8 L 5290.8 3885.3 L 5380.7 3837.2 L 5422.5 3805.9 L 5461.2 3790.2 L 5484.2 3782.8 L 5540.7 3753.6 L 5559.5 3744.1 L 5609.7 3724.3 L 5633.7 3703.3 L 5681.8 3677.2 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5966",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-23T19:08:24",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Strada di Pozzo Bianco</b> [n. 66]</p><p>Legenda della mappa: «Stra di Pozzo Bianco»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "strada",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7855,2883,563,286"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 7880.6 2883.4 L 7854.7 2931.9 L 7877.2 2928.5 L 8030.1 2994.1 L 8035.5 2987.3 L 8034.8 2992.7 L 8224.5 3074.8 L 8249.7 3092.5 L 8338.4 3128.1 L 8356.2 3142.4 L 8412.1 3169.8 L 8417.6 3134.2 L 8251.8 3057.0 L 8221.8 3047.4 L 8172.6 3026.2 L 8150.1 3005.0 L 8084.6 2975.7 L 8057.3 2967.5 L 8043.0 2959.2 L 8039.6 2961.3 L 8022.5 2949.7 L 8017.8 2952.4 L 7998.0 2941.5 L 7899.1 2900.5 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/6545",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-04-07T17:58:09",
+      "creator": {
+        "type": "Person",
+        "name": "Gianluca Forgione"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Strada di Toledo</b> [n. 67]</p><p>Legenda della mappa: «Strada di Toledo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "strada",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4255,3112,1187,807"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 5425.2 3111.7 L 5442.3 3137.4 L 5309.7 3235.8 L 5202.7 3332.1 L 5080.8 3400.5 L 4886.1 3513.9 L 4702.1 3623.0 L 4530.9 3715.0 L 4498.8 3738.5 L 4451.7 3783.5 L 4398.2 3832.7 L 4265.6 3918.3 L 4254.9 3888.3 L 4402.5 3794.2 L 4456.0 3745.0 L 4518.1 3697.9 L 4590.8 3655.1 L 4655.0 3616.6 L 4697.8 3578.1 L 4757.7 3554.6 L 4839.0 3511.8 L 4909.6 3473.3 L 4956.7 3443.3 L 4980.2 3434.8 L 5059.4 3383.4 L 5102.1 3351.3 L 5117.1 3342.8 L 5149.2 3323.5 L 5168.5 3310.7 L 5189.9 3295.7 L 5211.3 3282.9 L 5249.8 3252.9 L 5249.8 3250.8 Z' fill='#FFD700' fill-opacity='0.3' stroke='#FFD700' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://friendlynihilist.github.io/editing-naples-iiif/anno/5934",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "created": "2021-03-21T18:16:17",
+      "creator": {
+        "type": "Person",
+        "name": "Luigi Coiro"
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p><b>Torre S. Vincenzo</b> [n. 13]</p><p>Legenda della mappa: «Torre san Vincenzo»</p>",
+          "format": "text/html",
+          "purpose": "describing"
+        },
+        {
+          "type": "TextualBody",
+          "value": "torre",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://friendlynihilist.github.io/editing-naples-iiif/canvas/1",
+        "selector": [
+          {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4426,4891,75,114"
+          },
+          {
+            "type": "SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M 4455.5 5005.3 L 4501.1 4998.4 L 4496.5 4980.2 L 4495.4 4952.8 L 4501.1 4934.6 L 4485.1 4930.0 L 4485.1 4908.3 L 4484.0 4891.2 L 4443.0 4892.4 L 4440.7 4911.8 L 4443.0 4932.3 L 4429.3 4939.1 L 4428.1 4949.4 L 4433.8 4975.6 L 4425.9 4993.9 Z' fill='#ADD8E6' fill-opacity='0.3' stroke='#ADD8E6' stroke-width='2'/></svg>"
+          }
+        ]
+      }
+    }
+  ]
+}
